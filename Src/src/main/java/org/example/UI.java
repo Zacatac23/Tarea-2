@@ -17,7 +17,7 @@ public class UI {
             int opcion = scanner.nextInt();
 
             if (opcion == 4) {
-                System.out.println("Saliendo...");
+                System.out.println("Programa FInalizado");
                 break;
             }
 
@@ -29,16 +29,16 @@ public class UI {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("resultado de la suma: " + calc.suma(n1, n2));
+                    System.out.println("El resultado de la suma: " + calc.suma(n1, n2));
                     break;
                 case 2:
-                    System.out.println("resultado de la resta: " + calc.resta(n1, n2));
+                    System.out.println("El resultado de la resta: " + calc.resta(n1, n2));
                     break;
                 case 3:
-                    System.out.println("resultado de la multiplicación: " + calc.multiplicacion(n1, n2));
+                    System.out.println("El resultado de la multiplicación: " + calc.multiplicacion(n1, n2));
                     break;
                 default:
-                    System.out.println("Opción no válida. Intente de nuevo.");
+                    System.out.println("El resultado es");
             }
         }
 
