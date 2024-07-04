@@ -1,7 +1,7 @@
 package org.example;
 
 public class Calc {
-
+//Adios
     // Método para sumar dos números
     public int suma(int n1, int n2) {
         return n1 + n2;
